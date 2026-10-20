@@ -1,0 +1,2 @@
+# SmartTipJar
+NEAR Hackathon project
