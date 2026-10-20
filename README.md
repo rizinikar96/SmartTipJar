@@ -1,2 +1,118 @@
-# SmartTipJar
-NEAR Hackathon project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartTipJar - Javad</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(16px);
+      border-radius: 28px;
+      padding: 48px 36px;
+      max-width: 440px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 50px;
+      margin-bottom: 24px;
+      letter-spacing: 0.5px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+    .subtitle {
+      color: #a0aec0;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+    .tip-button {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: white;
+      border: none;
+      padding: 18px 40px;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.25s ease;
+      box-shadow: 0 8px 20px rgba(0, 114, 255, 0.35);
+    }
+    .tip-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 28px rgba(0, 114, 255, 0.5);
+    }
+    .wallet-box {
+      margin-top: 32px;
+      background: rgba(0,0,0,0.25);
+      padding: 14px 18px;
+      border-radius: 14px;
+      font-size: 13px;
+      color: #a0aec0;
+      word-break: break-all;
+    }
+    .wallet-box span {
+      color: #00c6ff;
+      font-weight: 500;
+    }
+    .footer {
+      margin-top: 28px;
+      font-size: 12px;
+      color: #718096;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">NEAR HACKATHON 2026</div>
+    
+    <h1>Javad</h1>
+    
+    <p class="subtitle">
+      Complete beginner learning Web3.<br>
+      Building my first project at NEAR Hackathon with the help of AI.
+    </p>
+    
+    <a class="tip-button" href="https://app.mynearwallet.com/send-money/javadr61.tg" target="_blank">
+      Send Tip with NEAR ✨
+    </a>
+
+    <div class="wallet-box">
+      Wallet: <span>javadr61.tg</span>
+    </div>
+
+    <div class="footer">
+      Built for NEAR Hackathon · SmartTipJar
+    </div>
+  </div>
+</body>
+</html>
